@@ -22,10 +22,15 @@ public class HolaMundo {
 		System.out.println("star program");
 		System.out.println("hola Mundo");
 		
+		
+		
         testIntegerNumbers();
 		
 		
+        
 		testRealNumbers();
+		
+		
 		
 		System.out.println("End Program");
 		
