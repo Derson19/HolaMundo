@@ -23,14 +23,18 @@ public class HolaMundo {
 		System.out.println("hola Mundo");
 		
 		
-		
-        testIntegerNumbers();
-		
+//        testIntegerNumbers();
 		
         
-		testRealNumbers();
+//		testRealNumbers();
 		
 		
+//		testchars();
+		
+//	    testBoolean();
+	    
+	    testChains();
+	    
 		
 		System.out.println("End Program");
 		
@@ -95,6 +99,126 @@ public class HolaMundo {
 					
 					
 					System.out.println("End TestRealNumber");
+					
+					
+			 }
+					
+					
+					
+					
+					
+					public static void testchars() 
+						
+				{
+						System.out.println("start testChars");
+						
+						
+						
+					// Los carascteres no son más que una letra 
+						
+						char caracter = 'A';
+						char ultima = 'Z';
+						
+						// los especiales comienzan por \
+						
+						char nuevaLinea = '\n';
+						char tabulacion = '\t';
+						char retornoCarro = '\r';
+						char comillaSimple ='\'';
+						char contraBarra = '\\';
+						char dobleComillas = '\"';
+						char formFeed = '\f';
+						
+						// Vamos a probar a mostrarlos por pantalla: concatenamos con +
+						
+						System.out.println("Primera letra " + caracter +" y ultima: "+ ultima);
+						
+						System.out.println("Con la \\ usamos caracteres especiales");
+						System.out.println("que pereza un \"accidente\" ");
+						
+						System.out.println("Vamos a saltar \n y ahora otra vez : " + nuevaLinea);
+						System.out.println(tabulacion + " Vamos a ver : " + nuevaLinea + " y ahora \r");
+						
+						
+						System.out.println("end testChars");
+						
+				}
+						
+					
+					
+					public static void testBoolean() {
+
+						System.out.println("start testBoolean");
+					
+					
+					// solo pueden ser true o false
+						
+						boolean terminado = false;
+						boolean aprobar = true;
+						boolean resultado = aprobar;
+						
+						//Vamos a probar a mostrarlos por pantalla: conectamos con +
+						System.out.println("Este programa ha terminado?" + terminado);
+						
+						
+						System.out.println("Aprobaré la asignatura? " + aprobar);
+
+						
+						
+						
+						
+						
+		
+						
+						System.out.println("end testBoolean");
+						//
+					
+						
+					}
+					
+					
+						public static void testChains() 	{
+							
+							 String nombre;
+							 String frase = "a quien madruga , patada en los cojones";
+							 String presidente;
+							 
+							 // Podemos iniciarla con una cadena vacia 
+							 
+							 String otraFrase = " Solo quiero que seamos \"amigos\"";
+							 
+							 int edad = 666;
+							 
+							 presidente = "Cthulu";
+							 nombre = "Optimus Prime";
+							 
+							 
+							 // los especiales comienzan por 
+							 char nuevaLinea = '\n';
+							 char tabulacion = '\t';
+							 
+							 // Podemos unir una cadena y un cara cter con el operador de concatenación.
+							 frase= frase + nuevaLinea ;
+							 
+							 // Vamos a probar a mostrarlos por pantalla:
+							 System.out.println(frase);
+							 
+							 // al concatenare números se convierten en cadenas 
+							 frase = presidente + " tiene : " + edad + " años";
+
+							 
+							 
+							 System.out.println("La frase queda asi: \n" + frase);
+							 System.out.println("Y la otra frase: \n" + otraFrase);
+							 
+							 
+						
+									
+							
+							System.out.println("end testBoolean");
+							//
+				
+
 
 					
 			 }
